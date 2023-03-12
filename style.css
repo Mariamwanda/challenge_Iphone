@@ -5,13 +5,14 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: black;
 }
 
 #MonIphone{
     width: 40%;
-    background-color: rgb(197, 195, 195);
-    height: 720px;
+    border: 2px solid rgb(165, 183, 205);
+    background-color: rgb(165, 183, 205);
+    height: 723px;
     margin-top:40px ;
     float: left;
     margin-left: 30%;
@@ -23,12 +24,13 @@ body{
 }
 
 .second{
-    border: 3px solid grey;
+    border: 7px solid black;
     width: 72%;
     float: left;
-    margin-left: 29%;
+    margin-left: 28%;
     height: 720px;
-    background-color: rgb(19, 19, 60);
+    background: linear-gradient( rgb(10, 14, 52) ,rgb(38, 128, 240), rgb(10, 14, 52));
+    background-color: rgb(10, 14, 52) ;
     position: relative;
     bottom: 33%;
     border-radius: 50px;
@@ -39,20 +41,20 @@ body{
     border: 1px solid rgb(214, 213, 213);
     height: 150px;
     border-radius: 40px;
-    background-color: rgb(214, 213, 213);
+    background-color: rgb(210, 225, 248);
     box-shadow: 2px 2px 2px black;
     margin: 5px;
 }
 
 .lotCamera .rondNoir{
     width: 25%;
-    background-color: black;
+    background-color: rgb(3, 8, 12);
     height: 50px;
     margin: 20px;
     position: relative;
     left: 20px;
     border-radius: 100%;
-
+    box-shadow: 12px 12px 12px rgb(202, 200, 200);
 }
 
 .lotCamera .rondNoirG{
@@ -64,12 +66,13 @@ body{
     position: relative;
     bottom: 23%;
     border-radius: 100%;
+    box-shadow: 12px 12px 12px rgb(202, 200, 200);
 }
 
 
 .lotCamera .rondPetit{
     width: 10%;
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(73, 78, 81);
     height: 20px;
     border: 1px solid rgb(159, 158, 158);
     position: relative;
@@ -80,7 +83,7 @@ body{
 
 .lotCamera .rondBlanc{
     width: 10%;
-    background-color: rgb(248, 248, 158);
+    background-color: rgb(238, 231, 223);
     height: 20px;
     border: 1px solid rgb(159, 158, 158);
     position: relative;
@@ -90,45 +93,46 @@ body{
 }
 
 
-.second .ecran1{
-    border: 3px solid rgb(249, 229, 229);
-    margin-top: 50px;
+ .second .ecran1{
+    background-color: black;
     float: left;
-    margin-left:50%;
+    margin-top: 20%;
+    margin-left:-40%;
     height: 200px;
-    box-shadow: 5px 5px 5px blue;
+    box-shadow: 10px 10px 10px rgb(38, 128, 240);
 }
 
 .second .ecran2{
-    width:60%;
-    border: 3px solid rgb(249, 229, 229);
-    margin-top: 100px;
+    width: 55%;
+    background-color: black;
+    margin-top: 65%;
     float: left;
     margin-left:20%;
-    box-shadow: 5px 5px 5px blue;
+    box-shadow: 10px 10px 10px rgb(38, 128, 240);
 
 }
 
 .second .ecran3{
-    border: 3px solid rgb(249, 229, 229);
-    margin-top: 190px;
+    background-color: black;
+    margin-top: 70%;
     float: left;
     margin-left:-30%;
     height: 200px;
-    box-shadow: 5px 5px 5px blue;
+    box-shadow: 10px 10px 10px rgb(38, 128, 240);
+ 
 }
 
 .second .camera{
     width: 25%;
     height: 25px;
-    background-color: rgb(44, 39, 39);
+    background-color: rgb(1, 0, 0);
     float: left;
     margin-left: 35%;
 }
 
 .camera .torche{
     width: 10%;
-    background-color: rgb(248, 248, 158);
+    background-color: rgb(238, 231, 223);
     height: 10px;
     margin: 6px;
     border-radius: 100%;
@@ -140,4 +144,34 @@ body{
     margin-left: 59%;
     position: relative;
     top: 150px;
+}
+
+.ecran1 .A{
+    height: 170px;
+    border: 3px solid rgb(96, 204, 256);
+    float: left;
+    margin-left: -36%;
+    position: relative;
+    top: 8%;
+    box-shadow: 15px 15px 15px rgb(38, 128, 240);
+}
+
+.ecran2 .A{
+    width: 87%;
+    border: 3px solid rgb(96, 204, 256);
+    float: left;
+    margin-left: 6%;
+    position: relative;
+    top: 10%;
+    box-shadow: 15px 15px 15px rgb(96, 204, 256) ;
+}
+
+.ecran3 .A{
+    height: 170px;
+    border: 3px solid rgb(96, 204, 256);
+    float: left;
+    margin-left: 6%;
+    position: relative;
+    top: 8%;
+    box-shadow: 15px 15px 15px rgb(96, 204, 256);
 }
